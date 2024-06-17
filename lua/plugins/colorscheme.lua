@@ -26,11 +26,14 @@ return {
     priority = 100,
     event = "VeryLazy",
   },
-
+  {
+    "nyoom-engineering/oxocarbon.nvim",
+  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "visual_studio_code",
+      colorscheme = "oxocarbon",
+      background = "dark",
     },
   },
 }
