@@ -10,6 +10,6 @@ opt.fillchars:append("eob:~")
 api.nvim_create_autocmd("ColorScheme", {
   pattern = "*",
   callback = function()
-    vim.cmd([[highlight EndOfBuffer guifg=#9945bd]])
+    vim.cmd([[highlight EndOfBuffer guifg=#fff]])
   end,
 })

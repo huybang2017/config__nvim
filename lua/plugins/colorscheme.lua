@@ -3,7 +3,7 @@ return {
     "folke/tokyonight.nvim",
     lazy = true,
     priority = 100,
-    opts = { style = "night" },
+    opts = { style = "storm" },
   },
 
   {
@@ -32,8 +32,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "oxocarbon",
-      background = "dark",
+      colorscheme = "tokyonight",
     },
   },
 }
