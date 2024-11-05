@@ -29,10 +29,11 @@ return {
   {
     "nyoom-engineering/oxocarbon.nvim",
   },
+  { "EdenEast/nightfox.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "carbonfox",
     },
   },
 }
